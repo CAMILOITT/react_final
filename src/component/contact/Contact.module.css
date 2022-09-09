@@ -1,0 +1,20 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+  position: relative;
+}
+.input {
+  padding: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  outline: none;
+}
+.submit {
+  position: absolute;
+  padding: 10px;
+  inset: auto 0px -30px auto;
+}
