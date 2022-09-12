@@ -50,7 +50,9 @@ export default function Register() {
         />
         <input type="submit" value="Enviar" className={css.submit} />
       </form>
-      <Link href="/login">iniciar sesión</Link>
+      <Link href="/login" className={css.linkLogin}>
+        iniciar sesión
+      </Link>
     </div>
   );
 }

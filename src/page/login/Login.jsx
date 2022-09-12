@@ -26,12 +26,8 @@ export default function Login() {
           name="user-password"
           id="password"
         />
-        <input type="submit" value="enviar" />
+        <input className={css.submit} type="submit" value="enviar" />
       </form>
-
-      <a href="www.google.com" className={css.linkPassword}>
-        Restablecer contraseña
-      </a>
       <Link href="/register" className={css.linkRegister}>
         Registrarse
       </Link>

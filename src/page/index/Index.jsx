@@ -21,7 +21,7 @@ export default function Index() {
         <Projects />
       </main>
       <footer className={css.footer}>
-        <h2>Contactar:</h2>
+        <h2>Contáctame:</h2>
         <Social />
         <Contact />
         <CopyRight />
