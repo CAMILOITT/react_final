@@ -14,7 +14,7 @@ export default function Index() {
         <Link href="/bulletin" className={css.bulletin}>
           boletín
         </Link>
-        <Presentation msg="AQUÍ VA MI PRESENTACIÓN" />
+        <Presentation msg="Futuro desarrollador full-stack actualmente tengo experiencias desarrollando sitios del lado del front_end en proyectos propios" />
         <Knowledge />
       </header>
       <main className={css.main}>

@@ -8,9 +8,9 @@ export default function Presentation({ msg }) {
       <h1 className={css.name}>Camilo Torres</h1>
       <p className={css.msg}>{msg}</p>
 
-      <Link href="/about" className={css.about}>
+      {/* <Link href="/about" className={css.about}>
         about
-      </Link>
+      </Link> */}
     </>
   );
 }
