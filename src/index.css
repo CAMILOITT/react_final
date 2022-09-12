@@ -9,3 +9,6 @@ body {
   margin: 0 10px;
   background: #000;
 }
+button {
+  cursor: pointer;
+}

@@ -4,22 +4,22 @@ export default function Contact() {
   return (
     <form className={css.form}>
       <input
-        className={(css.text, css.input)}
+        className={`${css.name} ${css.input}`}
         type="text"
-        name=""
+        name="client-name"
         id="name"
         placeholder="Nombre"
       />
       <input
-        className={(css.email, css.input)}
+        className={`${css.email} ${css.input}`}
         type="email"
-        name=""
+        name="client-email"
         id="email"
         placeholder="Email"
       />
       <textarea
-        className={(css.messenger, css.input)}
-        name=""
+        className={`${css.messenger} ${css.input}`}
+        name="client-msg"
         id="msg"
         cols="30"
         rows="10"

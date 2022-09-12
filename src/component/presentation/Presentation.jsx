@@ -1,4 +1,5 @@
 import css from './Presentation.module.css';
+import { Link } from 'wouter';
 
 export default function Presentation({ msg }) {
   return (
@@ -6,7 +7,14 @@ export default function Presentation({ msg }) {
       <span className={css.introName}>hola mi nombre es </span>
       <h1 className={css.name}>Camilo Torres</h1>
       <p className={css.msg}>{msg}</p>
-      <p className={css.about}>sobre mi</p>
+
+      <a className={css.about} href="/about">
+        sobre mi
+      </a>
+
+      <Link href="/about">
+        <span>about</span>
+      </Link>
     </>
   );
 }

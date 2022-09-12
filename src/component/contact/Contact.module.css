@@ -1,7 +1,9 @@
 .form {
+  width: clamp(248px, 70%, 450px);
+
   display: flex;
   flex-direction: column;
-  gap: 10px 0;
+  gap: 20px 0;
   position: relative;
   padding: 20px 10px;
 }

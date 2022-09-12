@@ -2,7 +2,7 @@ import css from './Knowledge.module.css';
 
 import htmlLogo from '../../assets/logoLanguage/html.svg';
 import cssLogo from '../../assets/logoLanguage/css.svg';
-// import sassLogo from '../../assets/logoLanguage/sass.svg';
+import sassLogo from '../../assets/logoLanguage/sass.svg';
 import bootstrapLogo from '../../assets/logoLanguage/bootstrap.svg';
 import tailwindLogo from '../../assets/logoLanguage/tailwind.svg';
 import javascriptLogo from '../../assets/logoLanguage/javascript.svg';
@@ -22,7 +22,7 @@ export default function knowledge() {
         <img className={`${css.iconCss} ${css.icon}`} src={cssLogo} alt="css" />
         <img
           className={`${css.iconSass} ${css.icon}`}
-          // src={sassLogo}
+          src={sassLogo}
           alt="SASS"
         />
         <img

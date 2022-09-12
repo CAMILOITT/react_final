@@ -11,7 +11,7 @@ export default function Index() {
     <>
       <header className={css.header}>
         <a
-          href="www.google.com"
+          href="/about"
           target="_blank"
           rel="noopener noreferrer"
           className={css.bulletin}
