@@ -1,13 +1,13 @@
 import './App.css';
 import Index from './page/index/Index';
-import DescriptionProyects from './page/descriptionProyects/DescriptionProyects';
+import DescriptionProjects from './page/descriptionProjects/DescriptionProjects';
 
 function App() {
   return (
     <div className="App">
       <Index />
 
-      {/* <DescriptionProyects /> */}
+      {/* <DescriptionProjects /> */}
     </div>
   );
 }

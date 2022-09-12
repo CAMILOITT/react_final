@@ -1,0 +1,44 @@
+.scroll {
+  writing-mode: sideways-lr;
+  -webkit-writing-mode: sideways-lr;
+  -ms-writing-mode: sideways-lr;
+  text-orientation: upright;
+  -webkit-text-orientation: upright;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+.containerArrow {
+  display: inline-block;
+  position: relative;
+  width: 30px;
+  height: 14px;
+  background: red;
+}
+.line .tipLeft .tipRight {
+  display: inline-block;
+  width: 1px;
+  background: white;
+}
+.line {
+  height: 4px;
+}
+.tipLeft .tipRight {
+  height: 3px;
+}
+.tipLeft {
+  transform: ;
+  -webkit-transform: ;
+  -moz-transform: ;
+  -ms-transform: ;
+  -o-transform: ;
+}
+.tipRight {
+  transform: ;
+  -webkit-transform: ;
+  -moz-transform: ;
+  -ms-transform: ;
+  -o-transform: ;
+}

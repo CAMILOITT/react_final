@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 .header,
 .main,
 .footer {
@@ -6,7 +8,39 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 10px 0;
+  color: white;
+}
+.header::after,
+.header::before {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  content: 'scroll --->';
+  position: absolute;
+  bottom: 100px;
+  animation: scroll 1s infinite alternate;
+  -webkit-animation: scroll 1s infinite alternate;
+}
+.header::before {
+  left: -15px;
+}
+.header::after {
+  right: -15px;
+}
+@keyframes scroll {
+  from {
+    transform: rotate(90deg) translate(0);
+    -webkit-transform: rotate(90deg) translate(0);
+    -moz-transform: rotate(90deg) translate(0);
+    -ms-transform: rotate(90deg) translate(0);
+    -o-transform: rotate(90deg) translate(0);
+  }
+  to {
+    transform: rotate(90deg) translateX(10px);
+    -webkit-transform: rotate(90deg) translateX(10px);
+    -moz-transform: rotate(90deg) translateX(10px);
+    -ms-transform: rotate(90deg) translateX(10px);
+    -o-transform: rotate(90deg) translateX(10px);
+  }
 }
 .footer {
   position: relative;
@@ -14,4 +48,19 @@
 .copyRight {
   position: absolute;
   bottom: 0;
+  background-image: image();
+}
+.bulletin {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }

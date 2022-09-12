@@ -1,0 +1,25 @@
+.containerProject {
+  background: #000;
+  width: 90%;
+}
+.projectsFrontEnd {
+  background: red;
+}
+.frontEndContainer {
+  background: blue;
+  display: flex;
+  flex-wrap: wrap;
+}
+.nameProject {
+  background: #ccc;
+  padding: 5px 10px;
+  width: clamp;
+  min-width: 150px;
+  max-width: 100%;
+}
+.imgProject {
+  background: green;
+  height: 300px;
+  min-width: 200px;
+  max-width: 100%;
+}

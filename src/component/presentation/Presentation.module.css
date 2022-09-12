@@ -1,6 +1,18 @@
-.title {
+.name {
 }
 .occupation {
+  margin: 20px 0;
 }
-.presentation {
+.msg {
+  margin: 20px 0;
+  outline: 1px solid;
+  outline-offset: 10px;
+  text-align: center;
+  width: clamp(200px, 50%, 80%);
+}
+.about {
+  margin: 20px 0;
+  background: red;
+  padding: 5px 10px;
+  font-weight: bold;
 }

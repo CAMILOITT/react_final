@@ -10,7 +10,15 @@ export default function Index() {
   return (
     <>
       <header className={css.header}>
-        <Presentation occupation="Desarrollador FRONT-END" presentation="" />
+        <a
+          href="www.google.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={css.bulletin}
+        >
+          boletín
+        </a>
+        <Presentation msg="AQUÍ VA MI PRESENTACIÓN" />
         <Knowledge />
       </header>
       <main className={css.main}>
@@ -20,7 +28,7 @@ export default function Index() {
         <h2>Contactar:</h2>
         <Social />
         <Contact />
-        <CopyRight className={css.copyRight} />
+        <CopyRight />
       </footer>
     </>
   );

@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'Lenguajes';
+  src:  url('fonts/Lenguajes.eot?mng3ee');
+  src:  url('fonts/Lenguajes.eot?mng3ee#iefix') format('embedded-opentype'),
+    url('fonts/Lenguajes.ttf?mng3ee') format('truetype'),
+    url('fonts/Lenguajes.woff?mng3ee') format('woff'),
+    url('fonts/Lenguajes.svg?mng3ee#Lenguajes') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.ico {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Lenguajes' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-bootstrap-1 .path1:before {
+  content: "\e900";
+  color: rgb(123, 18, 247);
+}
+.ico-bootstrap-1 .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(126, 18, 248);
+}
+.ico-bootstrap-1 .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(112, 16, 232);
+}
+.ico-bootstrap-2:before {
+  content: "\e903";
+}
+.ico-css-1:before {
+  content: "\e904";
+  color: #2277fe;
+}
+.ico-css-2:before {
+  content: "\e905";
+}
+.ico-html-1:before {
+  content: "\e906";
+  color: #e34d26;
+}
+.ico-html-2:before {
+  content: "\e907";
+}
+.ico-JS-1:before {
+  content: "\e908";
+}
+.ico-JS-2:before {
+  content: "\e909";
+}
+.ico-JS-3 .path1:before {
+  content: "\e90a";
+  color: rgb(250, 222, 52);
+}
+.ico-JS-3 .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ico-JS-3 .path3:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ico-react-1:before {
+  content: "\e90d";
+  color: #61d9fa;
+}
+.ico-tailwin-1:before {
+  content: "\e90e";
+}
+.ico-tailwin-2:before {
+  content: "\e90f";
+  color: #0099b3;
+}
+.ico-ui-components-1:before {
+  content: "\e910";
+  color: #007efe;
+}
