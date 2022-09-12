@@ -9,6 +9,9 @@ body {
   margin: 0 10px;
   background: #000;
 }
+html::-webkit-scrollbar {
+  display: none;
+}
 button {
   cursor: pointer;
 }

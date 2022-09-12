@@ -5,19 +5,15 @@ import Contact from '../../component/contact/Contact';
 import Social from '../../component/social/Social';
 import CopyRight from '../../component/copyRight/CopyRight';
 import Presentation from '../../component/presentation/Presentation';
+import { Link } from 'wouter';
 
 export default function Index() {
   return (
     <>
       <header className={css.header}>
-        <a
-          href="/about"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={css.bulletin}
-        >
+        <Link href="/bulletin" className={css.bulletin}>
           boletín
-        </a>
+        </Link>
         <Presentation msg="AQUÍ VA MI PRESENTACIÓN" />
         <Knowledge />
       </header>

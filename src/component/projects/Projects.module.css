@@ -1,25 +1,28 @@
 .containerProject {
-  background: #000;
   width: 90%;
 }
-.projectsFrontEnd {
-  background: red;
-}
-.frontEndContainer {
-  background: blue;
+.projects {
   display: flex;
+  justify-content: space-between;
+  gap: 30px;
   flex-wrap: wrap;
+  margin: 80px 0;
 }
-.nameProject {
-  background: #ccc;
+
+.projectsImg {
+  width: clamp(230px, 80%, 500px);
+  position: relative;
+}
+.img {
+  width: 100%;
+}
+.linkProject {
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+  background: red;
+  color: white;
   padding: 5px 10px;
-  width: clamp;
-  min-width: 150px;
-  max-width: 100%;
-}
-.imgProject {
-  background: green;
-  height: 300px;
-  min-width: 200px;
-  max-width: 100%;
+  text-decoration: none;
+  font-weight: bold;
 }
