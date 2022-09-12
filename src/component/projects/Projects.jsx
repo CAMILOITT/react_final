@@ -14,7 +14,10 @@ export default function Projects() {
         <article className={css.information}>
           <h2 className={css.titleProjects}>web de cuadros</h2>
           <h3 className={css.subtitle}>detalles</h3>
-          <p></p>
+          <p>
+            este sitio web tiene como objetivo mostrar los cuadros o dibujos que
+            realizo una empresa
+          </p>
           <fieldset className={css.containerLenguajes}>
             <legend className={css.subtitleLanguages}>
               lenguajes utilizados
@@ -40,7 +43,7 @@ export default function Projects() {
         <article className={css.information}>
           <h2 className={css.titleProjects}>Web películas</h2>
           <h3 className={css.subtitle}>detalles</h3>
-          <p></p>{' '}
+          <p>este sitio web realiza una simulación de un sito de películas</p>
           <fieldset className={css.containerLenguajes}>
             <legend className={css.subtitleLanguages}>
               lenguajes utilizados
@@ -58,7 +61,10 @@ export default function Projects() {
         <article className={css.information}>
           <h2 className={css.titleProjects}>Contador de criptomonedas</h2>
           <h3 className={css.subtitle}>detalles</h3>
-          <p></p>
+          <p>
+            Este proyecto lo que hace es calcular el precio actual de la
+            criptomonedas como bitcoin,ether, binance, dogeCoin, ect.
+          </p>
           <fieldset className={css.containerLenguajes}>
             <legend className={css.subtitleLanguages}>
               lenguajes utilizados
